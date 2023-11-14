@@ -30,14 +30,14 @@ for i = 1:length(Ts)
 end
 T_plot = Ts(2:length(Ts)-1);
 
-% figure(1) 
-% plot(t,v1)
-% hold on
-% V_Mann = Mann_Morris(vs1,w,del_T);
-% plot(T_plot,V_Mann)
-% V_Prod = Prodar(vs1,w,del_T);
-% plot(T_plot,V_Prod)
-% hold off
+figure(1) 
+plot(t,v1)
+hold on
+V_Mann = Mann_Morris(vs1,w,del_T);
+plot(T_plot,V_Mann)
+V_Prod = Prodar(vs1,w,del_T);
+plot(T_plot,V_Prod)
+hold off
 % 
 % figure(2)
 % plot(t,v2)
